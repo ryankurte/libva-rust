@@ -8,8 +8,8 @@ name = "libva_rust"
 path = "src/lib.rs"
 
 [dependencies.libc]
-git = "https://github.com/rust-lang/libc.git"
+version = "0.2.74"
 
 [dependencies.x11]
-git = "https://github.com/Daggerbot/x11-rs.git"
+version = "2.18.2"
 features = ["xlib"]
